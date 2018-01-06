@@ -1,0 +1,24 @@
+{
+  "name": "sea-bass",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "A starting point used by one Constance Chen whenever whipping up landing pages.",
+  "author": "@constancecchen",
+  "main": "index.html",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

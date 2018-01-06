@@ -1,0 +1,57 @@
+/**
+ * This is a mobile-first responsive grid that targets min-width media queries.
+ * It starts small with all columns at 100% width. Heavily based on & credited
+ * to Skeleton - http://getskeleton.com/
+ *
+ * Sample container & grid setup:
+ *
+ * <div class="u-container">
+ *   <div class="u-row">
+ *     <div class="u-col-8x"></div>
+ *     <div class="u-col-4x"></div>
+ *   </div>
+ * </div>
+ */
+
+$grid-breakpoint:   400px;
+$container-width:   1200px;
+$container-padding: 20px; // The horizontal space on each side of the grid
+$total-columns:     12;
+$column-margin:     4%; // This should always be %, not a fixed px width.
+
+.u-container {
+  @extend .u-clearfix;
+
+  width: 100%;
+  max-width: $container-width;
+  padding-right: $container-padding;
+  padding-left: $container-padding;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.u-row {
+  @extend .u-clearfix;
+}
+
+[class^="u-col-"], [class*=" u-col"] {
+  float: left;
+  width: 100%;
+
+  @media (min-width: $grid-breakpoint) {
+    margin-left: $column-margin;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+// Calculate column widths based on customizable variables - $total-columns and $column-margin
+@media (min-width: $grid-breakpoint) {
+  @for $i from 1 through $total-columns {
+    .u-col-#{$i}x {
+      width: (100 / $total-columns * $i) - ($column-margin * ($total-columns - $i) / $total-columns)
+    }
+  }
+}

@@ -1,0 +1,18 @@
+/**
+ * Typography
+ */
+
+body {
+  font-family: $font-sans-serif;
+  font-size: 1em;
+  line-height: 1.66;
+
+  // Fluid Typography Formula:
+  // startFontSize + (endFontSize + startFontSize / 16) * (100vw - startWindowSize) / (endWindowSize - startWindowSize (unitless))
+  @media (min-width: $mq-large) {
+    font-size: calc(1em + .3125 * (100vw - #{$mq-large}) / 50);
+  }
+  @media (min-width: $mq-xlarge) {
+    font-size: 1.3125em;
+  }
+}

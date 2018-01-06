@@ -1,0 +1,36 @@
+/**
+ * Naming convention: BEM
+ * @see https://css-tricks.com/bem-101/
+ *
+ * Property order: @mdo's codeguide with one idiosyncrasy: z-index is always first.
+ * @see http://codeguide.co/#css-declaration-order
+ */
+
+/**
+ * Plugin Dependencies
+ */
+// @import 'vendor/foobar';
+
+/**
+ * Authored Dependencies
+ */
+@import 'variables';
+@import 'base/resets';
+@import 'base/grid-flex';
+@import 'base/grid-float';
+// Or, use CSS Grid.
+
+/**
+ * Components & Reusable Patterns
+ */
+@import 'patterns/typography';
+
+/**
+ * Sections & One-offs
+ */
+@import 'sections/homepage';
+
+/**
+ * Utilities & Overrides
+ */
+@import 'base/utilities';

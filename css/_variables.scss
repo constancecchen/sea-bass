@@ -1,0 +1,27 @@
+/**
+ * Fonts
+ */
+$font-serif:      Georgia, Times, serif;
+$font-sans-serif: Helvetica, Arial, sans-serif;
+
+/**
+ * Colors
+ */
+$color-primary:    #000000;
+$color-secondary:  #999999;
+$color-tertiary:   #333333;
+
+$color-light:      #fafafa;
+$color-light-grey: #d9d9d9;
+$color-grey:       #7a7a7a;
+
+/**
+ * Media Query Breakpoints
+ */
+$mq-xxsmall: 24em;  // Phones (Landscape) - anything smaller is in portrait
+$mq-xsmall:  40em;  // Tablet
+$mq-small:   64em;  // Netbook
+$mq-medium:  80em;  // Laptop
+$mq-large:   100em; // Mid Size monitor
+$mq-xlarge:  120em; // Desktop
+$mq-xxlarge: 140em; // Thunderbolt
