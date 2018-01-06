@@ -1,4 +1,4 @@
-![Hipster Fish Logo](./images/logo.png)
+<img src="https://github.com/constancecchen/sea-bass/raw/master/images/logo.png" width="300" height="300">
 
 # What is this shenaniganry?
 
@@ -19,8 +19,8 @@ Thus... sea bass(?)
 
 Huh, let's see, I know have variations of this somewhere!
 
-- [My portfolio site (I would hope so anyway)](https://www.constancechen.me)
-- [Seattle Indies](https://www.seattleindies.org)
+- [My portfolio site (I would hope so anyway)](https://github.com/constancecchen/constancecchen.github.io/tree/master/css)
+- [Seattle Indies](https://github.com/SeattleIndies/wp-seattle-indies/tree/master/css)
 - ...and more to come!
 
 ## Usage
