@@ -16,6 +16,7 @@ gulp.task('css', function() {
 });
 /* Depending on the project and team size, also consider adding:
  * https://www.npmjs.com/package/gulp-uncss
+ * https://github.com/addyosmani/critical
  * https://github.com/milworm/gulp-css-gsub
  * https://www.npmjs.com/package/gulp-scss-lint
  */
