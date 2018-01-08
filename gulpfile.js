@@ -23,7 +23,7 @@ gulp.task('css', function() {
 
 // JS compiling
 gulp.task('js', function() {
-  return gulp.src('js/**/*.js')
+  return gulp.src(['js/**/*.js', '!js/**/*.min.js'])
     .pipe(concat('script.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('js/'))
@@ -41,5 +41,5 @@ gulp.task('webserver', function() {
 // Putting it all together
 gulp.task('default', ['css', 'js', 'webserver'], function() {
   gulp.watch('css/**/*.scss', ['css']);
-  gulp.watch('js/**/*.js', ['js']);
+  gulp.watch(['js/**/*.js', '!js/**/*.min.js'], ['js']);
 })
