@@ -29,6 +29,16 @@ gulp.task('js', function() {
     .pipe(gulp.dest('js/'))
 });
 
+/**
+ * Image compiling
+ * Depending on the project, consider adding the following image perf tools:
+ * https://github.com/sindresorhus/gulp-imagemin
+ * https://github.com/mahnunchik/gulp-responsive
+ * https://github.com/krasimir/gulp-coloor (lazyload with color placeholder)
+ * https://www.npmjs.com/package/gulp-svgo
+ * https://github.com/Hiswe/gulp-svg-symbols
+ */
+
 // Localhost and live reload
 gulp.task('webserver', function() {
   return gulp.src('./')
