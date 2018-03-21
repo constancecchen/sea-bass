@@ -10,10 +10,10 @@ body {
 
   // Fluid Typography Formula:
   // startFontSize + (endFontSize + startFontSize / 16) * (100vw - startWindowSize) / (endWindowSize - startWindowSize (unitless))
-  @media (min-width: $mq-large) {
-    font-size: calc(1em + .3125 * (100vw - #{$mq-large}) / 50);
+  @media (min-width: $mq-xsmall) {
+    font-size: calc(1em + .3125 * (100vw - #{$mq-xsmall}) / 50);
   }
   @media (min-width: $mq-xlarge) {
-    font-size: 1.3125em;
+    font-size: 1.5em;
   }
 }
