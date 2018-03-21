@@ -12,8 +12,8 @@ $flex-gutter: 1%;
   flex-wrap: wrap;
   align-content: center;
 }
-.flex--wrap {
-  flex-wrap: wrap;
+.flex--nowrap {
+  flex-wrap: nowrap;
 }
 .flex--no-gutter {
   margin-right: -($flex-gutter);
