@@ -20,8 +20,9 @@ Thus... sea bass(?)
 Huh, let's see, I know have variations of this somewhere!
 
 - [My portfolio site (I would hope so anyway)](https://github.com/constancecchen/constancecchen.github.io/tree/master/css)
-- [Seattle Indies](https://github.com/SeattleIndies/wp-seattle-indies/tree/master/css)
 - [IGDA Seattle](https://github.com/IGDA-Seattle/IGDA-Seattle.github.io)
+- [SIX](https://github.com/SeattleIndies/seattleindiesexpo)
+- [Seattle Indies](https://github.com/SeattleIndies/wp-seattle-indies/tree/master/css)
 - ...and more to come!
 
 ## Usage
@@ -34,6 +35,7 @@ Huh, let's see, I know have variations of this somewhere!
 
 - CSS variables with @supports checks
 - Add a Sass/JS linter + config files
+- Take a look at [Front-End-Toolkit](https://github.com/devbridge/Front-End-Toolkit.git) (this is awesome)
 
 ## Tests & processes to consider setting up
 
